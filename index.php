@@ -2,10 +2,10 @@
 
 require("./PropertyConstant.php");
 
-use Pbo\Marketplace\Produk;
+use Produk;
 
 //object
-$produk = new Produk();
+//$produk = new Produk();
 
 $produk->setKode('P0001')->setNama('Laptop')->setHarga(10000000)->setStok(5);
 
